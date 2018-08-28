@@ -14,11 +14,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Preview
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preview/master/_listings/aws-inspector/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Inspector API - Preview Agents
+  x-api-slug: actionpreviewagents-get
+  description: |-
+    Previews the agents installed on the EC2 instances that are part of the specified
+             assessment target.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preview/master/_listings/aws-inspector/actionpreviewagents-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.identity.and.access.management.api.gallery.streamdata.io

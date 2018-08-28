@@ -12,11 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Preview
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preview/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Data.gov API - Get Harvest Source Ent Preview
+  x-api-slug: harvestsourceidentpreview-get
+  description: Preview a single harvest source given an ID or a slug
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preview/master/_listings/data-gov/harvestsourceidentpreview-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://danske.bank.api.gallery.streamdata.io
